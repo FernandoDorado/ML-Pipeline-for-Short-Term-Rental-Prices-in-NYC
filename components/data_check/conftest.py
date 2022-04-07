@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-#import wandb
+import wandb
 
 
 def pytest_addoption(parser):
