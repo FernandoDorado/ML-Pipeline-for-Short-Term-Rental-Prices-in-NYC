@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-04-07T20:07:38.673604",
+    "startedAt": "2022-04-07T20:07:37.867264",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Data with outliers and null values removed",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/inanox/repos/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC/src/basic_cleaning/run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "git@github.com:FernandoDorado/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC.git",
+        "commit": "5885b2469ea4b1dd6633188dd6de3aff6290537a"
+    },
+    "email": "fernando.dorado.rueda@idener.es",
+    "root": "/home/inanox/repos/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC",
+    "host": "PC",
+    "username": "inanox",
+    "executable": "/home/inanox/miniconda3/envs/mlflow-608d88911f5c0420fceee508c6e80c295a28c53a/bin/python"
+}
