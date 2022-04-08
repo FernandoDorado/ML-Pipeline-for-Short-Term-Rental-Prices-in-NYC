@@ -1,0 +1,15 @@
+artifact_uri: file:///home/inanox/repos/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC/mlruns/0/30ff3abd845a434e812b9cc05912a632/artifacts
+end_time: 1649441795606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 30ff3abd845a434e812b9cc05912a632
+run_uuid: 30ff3abd845a434e812b9cc05912a632
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1649441777980
+status: 3
+tags: []
+user_id: inanox

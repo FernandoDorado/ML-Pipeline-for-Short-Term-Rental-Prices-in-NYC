@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-04-07T21:12:37.552389",
+    "startedAt": "2022-04-07T21:12:36.449618",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:FernandoDorado/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC.git",
+        "commit": "04f121c8eb1c53699706c775c8443cce0eb89679"
+    },
+    "email": "fernando.dorado.rueda@idener.es",
+    "root": "/home/inanox/repos/ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC",
+    "host": "PC",
+    "username": "inanox",
+    "executable": "/home/inanox/miniconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/bin/python"
+}
