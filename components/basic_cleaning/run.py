@@ -21,9 +21,6 @@ def go(args):
     # particular version of the artifact
     # artifact_local_path = run.use_artifact(args.input_artifact).file()
 
-    ######################
-    # YOUR CODE HERE     #
-    ######################
     logger.info("Downloading artifacts")
     artifact_path = run.use_artifact(args.input_artifact).file()
     df = pd.read_csv(artifact_path)
@@ -38,7 +35,7 @@ def go(args):
     # Transform column to datetime
     df['last_review'] = pd.to_datetime(df['last_review'])
 
-    # Keep rows between desired lat/long
+    # Keep rows between desired lat/long. Add new condition -> (Step 5). Release v2.0.0
     idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
     df = df[idx].copy()
 

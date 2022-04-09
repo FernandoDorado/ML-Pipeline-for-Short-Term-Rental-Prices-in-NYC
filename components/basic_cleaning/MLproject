@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the inptu artifact (Sample CSV)
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the output artifact (Clean CSV)
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of the generated output
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Description (string) of the output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Minimum price limit above which data is dropped
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Maximum price limit above which data is dropped
         type: string
 
 
